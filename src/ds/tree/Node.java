@@ -5,6 +5,8 @@ public class Node {
     Node left;
     Node right;
 
+    // Default Constructor
+    Node (){}
     // Constructor
     Node(int val){
         this.key = val;

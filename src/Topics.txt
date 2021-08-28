@@ -1,0 +1,41 @@
+
+
+Topics covered :
+
+****************** Data Structures ***********
+1. Array
+2. Class
+1. Linked List
+2. Stack
+3. Queue
+4. Heap
+5. Tree
+    1. BST
+    2. Binary Tree
+    3. AVL
+    4. Segment Tree
+6. Map
+7. Graph
+
+
+
+**************** Algorithms *****************
+1. Greedy
+2. Recursion
+3. DP
+4. Tree traversals
+5.
+
+
+#####     JAVA CLASSES      ######
+    1. Class
+
+    2. Constructor
+        a. Default Constructor
+        b. Custom Constructor
+    3. Getters and Setters
+    4. toString()
+    5. Public , Public , Static
+
+
+
