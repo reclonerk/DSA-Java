@@ -1,12 +1,12 @@
 package ds.tree;
 
 public class Node {
-    public int key;
-    public Node left;
-    public Node right;
+    int key;
+    Node left;
+    Node right;
 
     // Constructor
-    public Node(int val){
+    Node(int val){
         this.key = val;
         this.left = null;
         this.right = null;

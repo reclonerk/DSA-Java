@@ -1,14 +1,14 @@
 package ds.tree;
 
 public class BinaryTree {
-    public Node root;
+    Node root;
 
     // Constructor
-    public BinaryTree(){
+    BinaryTree(){
         root = null;
     }
 
-    public Node insertBST(Node temp, int key){
+    Node insertBST(Node temp, int key){
         if(temp == null){
             temp = new Node(key);
             return temp;
@@ -23,10 +23,10 @@ public class BinaryTree {
         return temp;
     }
 
-    public void inorder(Node temp){
+    void inorder(Node temp){
         if(temp != null){
             inorder(temp.left);
-            System.out.println(temp.key);
+            System.out.print(temp.key + " ");
             inorder(temp.right);
         }
     }
